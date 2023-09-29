@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/lovelace-script-trial');
+@import url('https://fonts.cdnfonts.com/css/tt-fors-trial');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Lovelace Script Trial', sans-serif; */
+  font-family: 'TT Fors Trial Variable', sans-serif;
+  background: #fff8ed;
+  color: 'black';
+}
+
+h1,
+h2 {
+  color: #2273f3;
+}
+
+/* Home */
+
+.home {
+  height: 100vh;
+}
+
+.home_intro {
+  font-weight: 100;
+  font-size: 4.5rem;
+  padding-top: 10%;
+}
+
+.home_caption {
+  height: 20%;
+}
+
+.home_img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.home_img_text {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (102vw - 100%) / 2);
+}
+
+.home_caption {
+  font-family: 'Lovelace Script Trial', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.25px;
+  font-size: 4rem;
+}
+
+.home_img_by {
+  display: flex;
+  margin: auto;
+  padding: 22px;
+}
+
+.home_circle {
+  width: 32px;
+  height: 28px;
+  position: absolute;
+}
+
+.home_by {
+  font-family: 'Lovelace Script Trial', sans-serif;
+  font-weight: 100;
+  color: 'white';
+  margin-right: 15px;
+}
+
+.home_img_by_heading {
+  margin-bottom: 15px;
+}
+
+/* About */
+.about {
+  display: flex;
+  height: 100vh;
+}
+
+.about_heading_name {
+  font-size: 3rem;
+  padding: 10px 0;
+  padding-bottom: 35px;
+}
+
+.about_img,
+.about_img2 {
+  width: 100%;
+  height: auto;
+  /* object-fit: contain; */
+}
+
+.about_rt_container {
+  padding: 5rem;
+}
+
+.test {
+  overflow: hidden;
+  height: 200px;
+}
